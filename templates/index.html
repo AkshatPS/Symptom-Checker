@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Checker AI</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <main class="symptom-checker-card">
+            <header class="card-header">
+                <div class="icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                </div>
+                <h1>Symptom Checker</h1>
+                <p class="disclaimer-text">For educational purposes only. Not a substitute for professional medical advice.</p>
+            </header>
+
+            <div class="card-body">
+                <label for="symptoms">Describe your symptoms below:</label>
+                <textarea
+                    id="symptoms"
+                    rows="5"
+                    placeholder="e.g., 'I have a sore throat, a runny nose, and I've been sneezing a lot for two days.'"
+                ></textarea>
+                <button id="submit-btn">Analyze Symptoms</button>
+            </div>
+
+            <div id="results-container" class="results-container">
+                <div id="loader" class="loader-container hidden">
+                    <div class="loader-dot"></div>
+                    <div class="loader-dot"></div>
+                    <div class="loader-dot"></div>
+                </div>
+                <div id="response-output" class="response-output"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>
+
