@@ -57,7 +57,7 @@ To run this project on your local machine, please follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR-GITHUB-USERNAME]/symptom-checker.git
+    git clone https://github.com/AkshatPS/Symptom-Checker.git
     cd symptom-checker
     ```
 
