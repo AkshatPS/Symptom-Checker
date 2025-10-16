@@ -7,7 +7,7 @@ An educational web application that takes user-described symptoms and leverages 
 
 ---
 
-## ## Live Demo
+## Live Demo
 
 You can access the live, deployed version of this application here:
 
@@ -15,7 +15,7 @@ You can access the live, deployed version of this application here:
 
 ---
 
-## ## Demo Video
+## Demo Video
 
 A brief video walkthrough demonstrating the application's features and functionality.
 
@@ -23,7 +23,7 @@ A brief video walkthrough demonstrating the application's features and functiona
 
 ---
 
-## ## Features
+## Features
 
 * **Symptom Analysis:** Users can describe their symptoms in a simple, natural language text area.
 * **LLM-Powered Insights:** Utilizes the Google Gemini API to analyze the input and generate a list of possible conditions.
@@ -33,7 +33,7 @@ A brief video walkthrough demonstrating the application's features and functiona
 
 ---
 
-## ## Tech Stack
+## Tech Stack
 
 * **Backend:** Python, Flask
 * **LLM:** Google Gemini API
@@ -43,17 +43,17 @@ A brief video walkthrough demonstrating the application's features and functiona
 
 ---
 
-## ## Local Setup and Installation
+## Local Setup and Installation
 
 To run this project on your local machine, please follow these steps:
 
-### ### Prerequisites
+### Prerequisites
 
 * Python 3.9+
 * Git
 * A Google Gemini API Key
 
-### ### Installation Steps
+### Installation Steps
 
 1.  **Clone the repository:**
     ```bash
@@ -93,7 +93,7 @@ To run this project on your local machine, please follow these steps:
 
 ---
 
-## ## API Endpoint
+## API Endpoint
 
 The application exposes a single API endpoint for processing symptoms.
 
@@ -114,7 +114,7 @@ The application exposes a single API endpoint for processing symptoms.
 
 ---
 
-## ## Project Structure
+## Project Structure
 
 ```
 .
@@ -132,7 +132,7 @@ The application exposes a single API endpoint for processing symptoms.
 
 ---
 
-## ## Disclaimer
+## Disclaimer
 
 This tool is for **educational purposes only**. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified health provider with any questions you may have regarding a medical condition.
 
